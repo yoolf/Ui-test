@@ -4,28 +4,97 @@
 ## 프로젝트 설명
 졸업 작품 공유 및 아카이빙 서비스
 
+## 주요 기능
+- 
 
 ## 프로젝트 기간
-2024.03.
+2024.03.10 ~ 2024.06.
 
 ## 팀원 소개
-|임수연|전지후|정윤호|
-|------|---|---|
-|Frontend|Frontend|Backend|
-|-|-|-|
+<table>
+  <tr>
+    <th>임수연</th>
+    <th>전지후</th>
+    <th>정윤호</th>
+  </tr>
+  <tr>
+      <td>Frontend</td>
+      <td>Frontend</td>
+      <td>Backend</td>
+  </tr>
+  <tr>
+      <td> - </td>
+      <td> - </td>
+      <td> - </td>
+  </tr>
+</table>
 
 ## 기술 스택
-|구분|내용|
-|---|---|
-|Frontend| <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=black"> <img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=black"> |
-|Backend| <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> | 
-|개발도구|Eclipse, vscode|
-|서버환경|-|
-|디자인| Whimsical, Miro, Figma |
-|협업도구| Notion, Google Meets, Jira, Git, Github |
+<table>
+    <tr>
+        <th>구분</th>
+        <th>내용</th>
+    </tr>
+    <tr>
+        <td>Frontend</td>
+        <td>
+            <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
+            <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"> 
+            <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
+            <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> 
+            <img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=black"> 
+            <img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=black">
+        </td>
+    </tr>
+    <tr>
+        <td>Backend</td>
+        <td>
+            <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> 
+            <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> 
+            <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+            <img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white">
+        </td>
+    </tr>
+    <tr>
+        <td>개발도구</td>
+        <td>
+            <img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=Eclipse&logoColor=white"/>
+            <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=VisualStudioCode&logoColor=white"/>
+        </td>
+    </tr>
+    <tr>
+        <td>서버환경</td>
+        <td>
+            <!--<img src="https://img.shields.io/badge/Apache Tomcat-D22128?style=for-the-badge&logo=Apache Tomcat&logoColor=white"/>-->
+        </td>
+    </tr>
+    <tr>
+        <td>디자인</td>
+        <td>
+            <img src="https://img.shields.io/badge/whimsical-7952B3?style=for-the-badge&logoColor=white"> 
+            <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"> 
+            <img src="https://img.shields.io/badge/miro-050038?style=for-the-badge&logo=miro&logoColor=white"> 
+        </td>
+    </tr>
+    <tr>
+        <td>협업도구</td>
+        <td>
+            <img src="https://img.shields.io/badge/Notion-ffffff?style=for-the-badge&logo=Notion&logoColor=black"/>
+            <img src="https://img.shields.io/badge/Google%20Meet-00897B?style=for-the-badge&logo=google-meet&logoColor=white"/>
+           <img src="https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white"/>
+            <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white"/>
+            <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>
+        </td>
+    </tr>
+</table>
 
 
-## 주요 기능
+## ERD
+
+
+## 서비스 플로우 차트
 
 
 ## 페이지별 기능
+
+
