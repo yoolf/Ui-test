@@ -7,11 +7,10 @@ import Button from './components/common/button';
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Main />} />
-      <Route path="/signupPage" element={<Signup />} />
-      <Route path="*" element={<Notfound />} />
-    </Routes>
+    <>
+      열매
+      <Button text="중복확인" />
+    </>
   );
 }
 
