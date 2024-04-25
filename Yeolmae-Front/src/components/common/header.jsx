@@ -8,7 +8,9 @@ function Header() {
         <Link to="/">로고</Link>
       </div>
       <div className="headerCenter" />
-      <div className="headerRight">사용자명</div>
+      <div className="headerRight">
+        <Link to="/loginpage">로그인</Link>
+      </div>
     </header>
   );
 }
