@@ -4,7 +4,6 @@ import Wrapper from '../Common/Wrapper';
 
 const Title = styled.h2`
   display: flex;
-
   justify-contents: left;
 `;
 
@@ -37,8 +36,8 @@ function Login() {
     <Wrapper>
       <Title>로그인</Title>
       <InputWrapper>
-        <Input />
-        <Input />
+        <Input id="id" name="id" placeholder="아이디를 입력해주세요" />
+        <Input id="password" name="password" placeholder="비밀번호를 입력해주세요" />
       </InputWrapper>
       <Button text="로그인하기" />
     </Wrapper>
