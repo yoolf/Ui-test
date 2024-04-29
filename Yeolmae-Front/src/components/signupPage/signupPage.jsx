@@ -5,8 +5,12 @@ import InputField from '../Common/InputField';
 
 const InputWrapper = styled.div`
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   min-height: 40vh;
   margin: 0px 0px 10px 0px;
+  padding: 20px 0px 0px 0px;
 `;
 
 const Title = styled.h2`
