@@ -1,13 +1,15 @@
 import './App.css';
 import { Routes, Route, Link } from 'react-router-dom';
-import Main from './components/mainPage/mainPage';
-import Signup from './components/signupPage/signupPage';
-import Login from './components/loginPage/loginPage';
-import Notfound from './components/notFound/notFound';
+import Main from './components/MainPage/MainPage';
+import Signup from './components/SignupPage/SignupPage';
+import Login from './components/LoginPage/LoginPage';
+import Notfound from './components/NotFound/NotFound';
+import Header from './components/Common/Header';
 
 function App() {
   return (
     <>
+      <Header />
       <div>
         {/* 페이지 경로 표시 */}
         <Link to="/">메인 홈</Link>
