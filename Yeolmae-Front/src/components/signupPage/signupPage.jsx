@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import Button from '../Common/Button';
-import Wrapper from '../Common/Wrapper';
-import InputField from '../Common/InputField';
+import Button from '../common/Button';
+import Wrapper from '../common/Wrapper';
+import InputField from '../common/InputField';
 
 const InputWrapper = styled.div`
   display: flex;
