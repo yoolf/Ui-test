@@ -30,6 +30,21 @@ const InputWrapper = styled.div`
   min-height: 40vh;
 `;
 
+const LinkWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
+const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: rgba(108, 108, 108, 1);
+  font-size: 13px;
+  margin: 10px 3px;
+
+  &: hover {
+    font-family: NotoSans SemiBold;
+  }
+`;
+
 function Login() {
   return (
     <Wrapper>
@@ -37,8 +52,10 @@ function Login() {
       <InputWrapper>
         <Input id="id" name="id" placeholder="아이디를 입력해주세요" />
         <Input id="password" name="password" placeholder="비밀번호를 입력해주세요" />
-        <br />
-        <Link to="/">아이디와 비밀번호 찾기</Link>
+        <LinkWrapper>
+          <StyledLink to="/">아이디 찾기</StyledLink>
+          <StyledLink to="/">비밀번호 찾기</StyledLink>
+        </LinkWrapper>
       </InputWrapper>
       <Button text="로그인하기" />
     </Wrapper>
