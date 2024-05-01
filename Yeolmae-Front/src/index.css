@@ -1,10 +1,11 @@
 @font-face {
-  font-family: 'NotoSans';
-  src: url('../src/fonts/NotoSansKR-Medium.ttf');
+  font-family: 'NotoSans Regular';
+  font-weight: normal;
+  src: url('./fonts/NotoSansKR-Regular.woff') format('woff');
 }
 
-body * {
-  font-family: 'NotoSans';
+body {
+  font-family: 'NotoSans Regular';
 }
 
 body {
