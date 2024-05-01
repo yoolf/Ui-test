@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import Button from '../Common/Button';
 import Wrapper from '../Common/Wrapper';
 
@@ -27,8 +28,6 @@ const InputWrapper = styled.div`
   justify-content: center;
   align-items: center;
   min-height: 40vh;
-  margin: 0px 0px 10px 0px;
-  padding: 20px 0px 0px 0px;
 `;
 
 function Login() {
@@ -38,6 +37,8 @@ function Login() {
       <InputWrapper>
         <Input id="id" name="id" placeholder="아이디를 입력해주세요" />
         <Input id="password" name="password" placeholder="비밀번호를 입력해주세요" />
+        <br />
+        <Link to="/">아이디와 비밀번호 찾기</Link>
       </InputWrapper>
       <Button text="로그인하기" />
     </Wrapper>
