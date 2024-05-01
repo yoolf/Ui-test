@@ -1,7 +1,21 @@
 @font-face {
   font-family: 'NotoSans Regular';
-  font-weight: normal;
   src: url('./fonts/NotoSansKR-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'NotoSans Light';
+  src: url('./fonts/NotoSansKR-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'NotoSans SemiBold';
+  src: url('./fonts/NotoSansKR-SemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'NotoSans ExtraBold';
+  src: url('./fonts/NotoSansKR-ExtraBold.woff') format('woff');
 }
 
 body {
