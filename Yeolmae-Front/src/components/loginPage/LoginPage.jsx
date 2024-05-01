@@ -15,6 +15,7 @@ const Input = styled.input`
   border: none;
   border-bottom: 2px solid rgba(220, 220, 220, 1);
   padding: 10px 0px;
+  font-family: NotoSans Regular;
 
   &: focus {
     outline: none;
@@ -50,8 +51,13 @@ function Login() {
     <Wrapper>
       <Title>로그인</Title>
       <InputWrapper>
-        <Input id="id" name="id" placeholder="아이디를 입력해주세요" />
-        <Input id="password" name="password" placeholder="비밀번호를 입력해주세요" />
+        <Input id="id" name="id" type="text" placeholder="아이디를 입력해주세요" />
+        <Input
+          id="password"
+          name="password"
+          type="password"
+          placeholder="비밀번호를 입력해주세요"
+        />
         <LinkWrapper>
           <StyledLink to="/">아이디 찾기</StyledLink>
           <StyledLink to="/">비밀번호 찾기</StyledLink>
