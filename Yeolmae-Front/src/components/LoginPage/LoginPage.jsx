@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import Button from '../Common/Button';
 import Wrapper from '../Common/Wrapper';
 
@@ -14,6 +15,7 @@ const Input = styled.input`
   border: none;
   border-bottom: 2px solid rgba(220, 220, 220, 1);
   padding: 10px 0px;
+  font-family: NotoSans Regular;
 
   &: focus {
     outline: none;
@@ -27,8 +29,21 @@ const InputWrapper = styled.div`
   justify-content: center;
   align-items: center;
   min-height: 40vh;
-  margin: 0px 0px 10px 0px;
-  padding: 20px 0px 0px 0px;
+`;
+
+const LinkWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
+const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: rgba(108, 108, 108, 1);
+  font-size: 13px;
+  margin: 10px 3px;
+
+  &: hover {
+    font-family: NotoSans SemiBold;
+  }
 `;
 
 function Login() {
@@ -36,8 +51,17 @@ function Login() {
     <Wrapper>
       <Title>로그인</Title>
       <InputWrapper>
-        <Input id="id" name="id" placeholder="아이디를 입력해주세요" />
-        <Input id="password" name="password" placeholder="비밀번호를 입력해주세요" />
+        <Input id="id" name="id" type="text" placeholder="아이디를 입력해주세요" />
+        <Input
+          id="password"
+          name="password"
+          type="password"
+          placeholder="비밀번호를 입력해주세요"
+        />
+        <LinkWrapper>
+          <StyledLink to="/">아이디 찾기</StyledLink>
+          <StyledLink to="/">비밀번호 찾기</StyledLink>
+        </LinkWrapper>
       </InputWrapper>
       <Button text="로그인하기" />
     </Wrapper>
