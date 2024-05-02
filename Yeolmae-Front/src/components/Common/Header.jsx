@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import './Header.css';
 import styled from 'styled-components';
 
 const StyledLink = styled(Link)`
@@ -7,17 +6,42 @@ const StyledLink = styled(Link)`
   color: white;
 `;
 
+const StyledHeader = styled.header`
+  display: flex;
+  align-items: center;
+  padding: 15px 15px;
+  background-color: rgba(108, 108, 108, 1);
+  font-family: NotoSans Regular;
+  color: white;
+`;
+
+const StyledHeaderCenter = styled.div`
+  width: 80%;
+`;
+
+const StyledHeaderLeft = styled.div`
+  display: flex;
+  width: 10%;
+  justify-content: left;
+`;
+
+const StyledHeaderRight = styled.div`
+  display: flex;
+  width: 10%;
+  justify-content: right;
+`;
+
 function Header() {
   return (
-    <header className="Header">
-      <div className="headerLeft">
+    <StyledHeader className="Header">
+      <StyledHeaderLeft>
         <StyledLink to="/">로고</StyledLink>
-      </div>
-      <div className="headerCenter" />
-      <div className="headerRight">
+      </StyledHeaderLeft>
+      <StyledHeaderCenter />
+      <StyledHeaderRight>
         <StyledLink to="/loginpage">로그인</StyledLink>
-      </div>
-    </header>
+      </StyledHeaderRight>
+    </StyledHeader>
   );
 }
 
