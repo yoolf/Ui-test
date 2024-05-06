@@ -4,12 +4,14 @@ import styled from 'styled-components';
 const StyledLink = styled(Link)`
   text-decoration: none;
   color: white;
+  display: flex;
+  justify-content: center;
 `;
 
 const StyledHeader = styled.header`
   display: flex;
   align-items: center;
-  padding: 15px 15px;
+  padding: 5px 15px;
   background-color: rgba(108, 108, 108, 1);
   font-family: NotoSans Regular;
   color: white;
@@ -35,7 +37,9 @@ function Header() {
   return (
     <StyledHeader className="Header">
       <StyledHeaderLeft>
-        <StyledLink to="/">로고</StyledLink>
+        <StyledLink to="/">
+          <img src="/IMG_4276.PNG" width={60} alt="로고이미지" />
+        </StyledLink>
       </StyledHeaderLeft>
       <StyledHeaderCenter />
       <StyledHeaderRight>
