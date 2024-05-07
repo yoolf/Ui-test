@@ -8,6 +8,7 @@ const StyledButton = styled.button`
   border: none;
   border-radius: 3px;
   padding: 7px 25px;
+  font-family: NotoSans Regular;
   font-size: 15px;
   white-space: nowrap;
 `;

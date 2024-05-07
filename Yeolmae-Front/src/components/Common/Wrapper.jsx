@@ -8,7 +8,7 @@ const Wrapper = styled.div`
   justify-content: center;
   width: 70%;
   margin: 50px auto;
-  padding: 15px 30px;
+  padding: 20px 30px;
   min-height: 50vh;
   max-width: 50vh;
   height: 70%;
