@@ -66,8 +66,9 @@ function Login() {
   };
 
   const API = 'https://879df4a7-14ca-442b-a753-788449ea4109.mock.pstmn.io/api/v1/login';
+  // const API = '';
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     if (!input.id) {
       return window.alert('ID를 입력해주세요.');
@@ -80,14 +81,14 @@ function Login() {
       password: input.password
     };
 
-    const data = await axios
+    axios
       .post(API, body)
       .then((res) => {
-        const { accessToken } = res.data;
-        if (accessToken) {
-          localStorage.setItem('accessToken', accessToken);
-        }
-        // console.log(input);
+        // const { accessToken } = res.data;
+        // if (accessToken) {
+        //   localStorage.setItem('accessToken', accessToken);
+        // }
+        console.log(input);
         console.log(res.data);
         // console.log(res);
         if (res.status === 200) {
